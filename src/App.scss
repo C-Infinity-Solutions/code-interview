@@ -1,0 +1,16 @@
+.todo {
+  &_container {
+    max-width: 10vw;
+  }
+
+  .todo--list {
+    list-style-type: none;
+    text-align: center;
+  }
+
+  .todo-item {
+    border: 1px solid black !important;
+    margin: 1em 1em;
+    padding: 4px 0;
+  }
+}
